@@ -39,3 +39,35 @@ margin-bottom: 20px;
  border-radius: 5px;
  color: white;
 }
+
+/* banner area start */
+.banner{
+   display: flex;
+}
+
+.banner-identity{
+    padding: 200px 200px 30px;
+}
+.banner-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+.banner-desc{
+    font-size: 16px;
+    color: rgb(119, 114, 114);
+    margin-bottom: 15px;
+}
+.banner-img i, span {
+    font-size: 16px;
+    color: rgb(143, 136, 136);
+    margin-bottom: 10px;
+}
+.banner-img i{
+    color: rgb(84, 155, 13);
+    padding-right: 10px;
+}
+.banner-img span{
+    font-weight: 400;
+}
