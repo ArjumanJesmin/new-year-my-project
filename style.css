@@ -101,3 +101,34 @@ margin-bottom: 20px;
     font-size: 16px;
     color: rgb(143, 137, 137);
  }
+
+ .bg-gradient{
+    margin:100px 230px 100px;
+    width: 65%;
+  height: 250px;
+  /* background-image:url('./images/watch.png'), linear-gradient( to right, rgba(30, 75, 115, 1), rgba(184, 95, 95, 0)); */
+  background-image:linear-gradient(to right, rgb(125, 63, 184), rgb(204, 106, 147), rgb(166, 209, 184));
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  position: absolute;
+  border-radius: 10px;  
+  position: absolute;
+ }
+ .bg-gradient h3{
+    position: relative;
+    text-align:left ;
+    padding-top: 60px ; 
+    padding-left: 50px;
+    padding-right: 250px;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+ }
+
+ .bg-gradient button{
+    height: 40px;
+   width: 110px;
+   color: coral; 
+  margin:20px 50px;
+  font-size: 18px;
+  font-weight: 500;
+ }
