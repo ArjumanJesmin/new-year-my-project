@@ -108,13 +108,11 @@ margin-bottom: 20px;
   height: 250px;
   /* background-image:url('./images/watch.png'), linear-gradient( to right, rgba(30, 75, 115, 1), rgba(184, 95, 95, 0)); */
   background-image:linear-gradient(to right, rgb(125, 63, 184), rgb(204, 106, 147), rgb(166, 209, 184));
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  position: absolute;
+ 
   border-radius: 10px;  
-  position: absolute;
  }
  .bg-gradient h3{
-    position: relative;
+   
     text-align:left ;
     padding-top: 60px ; 
     padding-left: 50px;
@@ -132,3 +130,65 @@ margin-bottom: 20px;
   font-size: 18px;
   font-weight: 500;
  }
+ /* Future section start */
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 450px;
+       
+}
+ .future{
+    display: flex;
+    color: white;
+    padding: 100px;
+
+ }
+ .future h2{
+    font-size: 40px;
+    font-weight: 600;
+    
+ }
+ .future-area p{
+    font-size: 18px;
+    padding: 10px 350px 0 10px;
+    color: rgb(194, 184, 184);
+
+ }
+ .future-area h6{
+    font-size: 14px;
+    padding: 10px 350px 0 10px;
+    color: rgb(194, 184, 184);
+ }
+.future-logo {
+    padding: 10px 350px 10px 10px;
+}
+.future-logo img{
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.future-form h2{
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.future-form input{
+    width:300px;
+    height: 40px;
+    border-radius: 5px;
+    color: rgb(233, 201, 201);
+    border: 1px solid rgb(182, 160, 160);
+    background-color: black;
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+.future-form button{
+    width:180px;
+    height: 50px;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(189, 57, 57);
+}
